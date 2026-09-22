@@ -1,25 +1,25 @@
 class Squix < Formula
   desc "SQL query manager for multiple databases"
   homepage "https://github.com/eduardofuncao/squix"
-  version "0.5.34-beta-test"
+  version "0.5.4-test"
 
   on_macos do
     if Hardware::CPU.intel?
-      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.34-beta-test/squix-darwin-amd64"
-      sha256 "dac543109afc713367c6881ddc5b3f459f4b7fff57f58200fc4081b608a1c2e3"
+      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.4-test/squix-darwin-amd64"
+      sha256 "c4b829ab5c7f9931a7dc2f23e0eee66c34f75790a6935416c3b9da190f832355"
     else
-      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.34-beta-test/squix-darwin-arm64"
-      sha256 "b0cbdcb1e6a757d3a578e24f3150ec2b9f59ad7baa438f923477e07224e693d3"
+      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.4-test/squix-darwin-arm64"
+      sha256 "e741a3d44a5aba7d326411e3c368daa933b6e10f7c572eb384efc24df196a3ef"
     end
   end
 
   on_linux do
     if Hardware::CPU.intel?
-      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.34-beta-test/squix-linux-amd64"
-      sha256 "ed6125b2548baf82765751382cf3cbd8c428f2a9e6348bd096778375ae2f7d89"
+      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.4-test/squix-linux-amd64"
+      sha256 "61e45d22d180ffced23ae90a84106087aee96fb9623028fcc759660c62cbafca"
     else
-      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.34-beta-test/squix-linux-arm64"
-      sha256 "13c014034aaea9cce0692a2318156b7831f009d2cdb101d31e41df9d15ad896f"
+      url "https://github.com/eduardofuncao/squix/releases/download/v0.5.4-test/squix-linux-arm64"
+      sha256 "adc0dc428670b728839344e4412da9414f3499970bc4877d24a94e46422c39dc"
     end
   end
 
